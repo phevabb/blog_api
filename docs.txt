@@ -12,17 +12,8 @@ first url:
            api/ password/change/?$ [name='rest_password_change']
 
 
-second url: (for registration only)
-          path('api/reg/', include('dj_rest_auth.registration.urls')), #for registration
-               api/reg/
 
 
-
-
-local apps url
-____________________________________
-third url: (for accessing contents)
-        path('api_posts/v1/', include('posts.api.urls')),
 
 
 
@@ -32,7 +23,7 @@ ________________________________
 visiting protected urls
 
 fix the header and value space with: (Headers section)
-            Authorization      Token 69b44049fe2dd0af65bedcdb3c89475c340d7791
+            Authorization      Token xxxxxxxxxxxx
 
 
 ___________________________________
@@ -41,7 +32,7 @@ registering / loging in a user
 login with the following in the body:(Body section)
                 {
                   "username": "sam",
-                  "password": "Uncleproton1."
+                  "password": "xxxxxxxxxx"
                 }
 
 
